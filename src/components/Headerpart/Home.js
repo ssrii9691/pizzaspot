@@ -1,7 +1,7 @@
 import React from 'react';
-import Ban1 from '../Assets/banners/banner1.jpg';
-import Ban2 from '../Assets/banners/banner2.jpg';
-import Ban3 from '../Assets/banners/banner3.webp'
+import Ban1 from '../../Assets/banners/banner1.jpg';
+import Ban2 from '../../Assets/banners/banner2.jpg';
+import Ban3 from '../../Assets/banners/banner3.webp';
 
 const Home = () => {
   return (
@@ -14,13 +14,13 @@ const Home = () => {
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src={Ban1} className="d-block w-100 "  alt="slider1"/>
+      <img src={Ban1} className="d-block banners w-100 "  alt="slider1"/>
     </div>
     <div className="carousel-item">
-      <img src={Ban2} className="d-block w-100 " alt="slider2"/>
+      <img src={Ban2} className="d-block banners w-100 " alt="slider2"/>
     </div>
     <div className="carousel-item">
-      <img src={Ban3} className="d-block w-100" alt="silder3"/>
+      <img src={Ban3} className="d-block banners w-100" alt="silder3"/>
     </div>
   </div>
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

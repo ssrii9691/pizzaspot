@@ -9,9 +9,9 @@ const Click = () => {
       <div>
         <nav className="navbar navbar-expand-lg bg-body-tertiary  ">
           <div className="container-fluid ">
-            <Link className="navbar-brand " to="/">
-              <span className="logo text-dark fs-2 fw-bold">Pizza</span>
-              <span className="text-warning fs-3 fw-bold">spot.</span>
+            <Link className="navbar-brand " to="/home">
+              <span className="logo text-dark fs-1 fw-bold">Pizza</span>
+              <span className="text-warning fs-2 fw-bold">spot.</span>
             </Link>
             <button
               className="navbar-toggler"
@@ -28,7 +28,7 @@ const Click = () => {
               className="collapse navbar-collapse"
               id="navbarSupportedContent"
             >
-              <form className="d-flex mx-auto" role="search">
+              <form className="d-flex ms-auto" role="search">
                 <ul className="navbar-nav d-flex ms-auto fs-5 ">
                   <li className="nav-item ">
                     <Link className="nav-link" aria-current="page" to="/">
@@ -36,12 +36,12 @@ const Click = () => {
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link" to="/products">
+                    <Link className="nav-link" to="/about">
                       About
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link" to="/about">
+                    <Link className="nav-link" to="/categories">
                       Categories
                     </Link>
                   </li>
@@ -57,19 +57,6 @@ const Click = () => {
                   </li>
                 </ul>
               </form>
-              <ul className="navbar-nav me-3 mb-2 mb-lg-0">
-                <li className="nav-item">
-                  <Link
-                    className="nav-link active  "
-                    aria-current="page"
-                    to="/cart"
-                  >
-                    <span className="fs-4 mt-1">Cart </span>
-                    <FaShoppingCart className="fs-4 " />
-                    <span className="cart-item bg-warning rounded-pill px-1"></span>
-                  </Link>
-                </li>
-              </ul>
             </div>
           </div>
         </nav>
