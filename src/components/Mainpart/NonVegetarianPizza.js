@@ -158,7 +158,7 @@ const NonVegetarianPizza = () => {
                           <div className="form-check py-1 mx-3 fs-5" key={i}>
                             <input
                               className="form-check-input"
-                              type="checkbox"
+                              type="radio"
                               value={crust}
                               name={crust}
                               id={i}
